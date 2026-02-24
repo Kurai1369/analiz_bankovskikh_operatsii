@@ -1,0 +1,204 @@
+2026-02-24 03:08:14,762 - src.utils - INFO - Запуск приложения
+2026-02-24 03:08:15,678 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 03:08:15,679 - src.utils - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 03:08:15,681 - src.utils - INFO - Запрос курсов валют для: ['USD', 'EUR']
+2026-02-24 03:08:16,501 - src.utils - ERROR - Ошибка запроса к API валют: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=RUB&symbols=USD%2CEUR
+2026-02-24 03:08:16,502 - src.utils - INFO - Запрос цен акций для: ['AAPL', 'AMZN', 'GOOGL', 'MSFT', 'TSLA']
+2026-02-24 03:08:16,994 - src.utils - INFO - AAPL: $266.18
+2026-02-24 03:08:17,711 - src.utils - WARNING - Цена для AMZN не найдена в ответе API
+2026-02-24 03:08:18,184 - src.utils - INFO - GOOGL: $311.49
+2026-02-24 03:08:18,634 - src.utils - WARNING - Цена для MSFT не найдена в ответе API
+2026-02-24 03:08:29,090 - src.utils - INFO - TSLA: $399.83
+2026-02-24 03:08:29,126 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 03:08:29,145 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 03:08:29,145 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 03:08:29,160 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 03:08:29,163 - src.utils - INFO - Приложение завершило работу
+2026-02-24 03:09:36,389 - src.utils - INFO - Запуск приложения
+2026-02-24 03:09:37,056 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 03:09:37,056 - src.utils - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 03:09:37,058 - src.utils - INFO - Запрос курсов валют для: ['USD', 'EUR']
+2026-02-24 03:09:37,911 - src.utils - ERROR - Ошибка запроса к API валют: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=RUB&symbols=USD%2CEUR
+2026-02-24 03:09:37,912 - src.utils - INFO - Запрос цен акций для: ['AAPL', 'AMZN', 'GOOGL', 'MSFT', 'TSLA']
+2026-02-24 03:09:38,805 - src.utils - INFO - AAPL: $266.18
+2026-02-24 03:09:39,352 - src.utils - WARNING - Цена для AMZN не найдена в ответе API
+2026-02-24 03:09:39,792 - src.utils - INFO - GOOGL: $311.49
+2026-02-24 03:09:40,245 - src.utils - WARNING - Цена для MSFT не найдена в ответе API
+2026-02-24 03:09:40,685 - src.utils - WARNING - Цена для TSLA не найдена в ответе API
+2026-02-24 03:09:40,720 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 03:09:40,739 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 03:09:40,739 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 03:09:40,754 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 03:09:40,755 - src.utils - INFO - Приложение завершило работу
+2026-02-24 03:12:46,628 - src.utils - INFO - Запуск приложения
+2026-02-24 03:12:48,051 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 03:12:48,051 - src.utils - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 03:12:48,059 - src.utils - INFO - Запрос курсов валют для: ['USD', 'EUR']
+2026-02-24 03:12:48,906 - src.utils - ERROR - Ошибка запроса к API валют: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=USD&symbols=USD%2CEUR
+2026-02-24 03:12:48,907 - src.utils - INFO - Запрос цен акций для: ['AAPL', 'AMZN', 'GOOGL', 'MSFT', 'TSLA']
+2026-02-24 03:12:49,776 - src.utils - INFO - AAPL: $266.18
+2026-02-24 03:12:50,308 - src.utils - WARNING - Цена для AMZN не найдена в ответе API
+2026-02-24 03:12:50,759 - src.utils - WARNING - Цена для GOOGL не найдена в ответе API
+2026-02-24 03:12:51,553 - src.utils - INFO - MSFT: $384.47
+2026-02-24 03:12:51,990 - src.utils - WARNING - Цена для TSLA не найдена в ответе API
+2026-02-24 03:12:52,026 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 03:12:52,045 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 03:12:52,045 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 03:15:15,934 - src.utils - INFO - Запуск приложения
+2026-02-24 03:15:17,153 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 03:15:17,153 - src.utils - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 03:15:17,156 - src.utils - INFO - Запрос курсов валют для: ['USD', 'EUR']
+2026-02-24 03:15:18,170 - src.utils - ERROR - Ошибка запроса к API валют: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=USD&symbols=USD%2CEUR
+2026-02-24 03:15:18,172 - src.utils - INFO - Запрос цен акций для: ['AAPL', 'AMZN', 'GOOGL', 'MSFT', 'TSLA']
+2026-02-24 03:15:18,912 - src.utils - INFO - AAPL: $266.18
+2026-02-24 03:15:19,647 - src.utils - WARNING - Цена для AMZN не найдена в ответе API
+2026-02-24 03:15:20,338 - src.utils - INFO - GOOGL: $311.49
+2026-02-24 03:15:20,991 - src.utils - WARNING - Цена для MSFT не найдена в ответе API
+2026-02-24 03:15:21,733 - src.utils - INFO - TSLA: $399.83
+2026-02-24 03:15:21,795 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 03:15:21,818 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 03:15:21,819 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 03:15:21,838 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 03:15:21,839 - src.utils - INFO - Приложение завершило работу
+2026-02-24 03:20:19,805 - src.utils - INFO - Запуск приложения
+2026-02-24 03:20:20,445 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 03:20:20,445 - src.utils - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 03:20:20,446 - src.utils - INFO - Запрос курсов валют для: ['USD', 'EUR']
+2026-02-24 03:20:21,208 - src.utils - ERROR - Ошибка запроса к API валют: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=USD&symbols=USD%2CEUR
+2026-02-24 03:20:21,209 - src.utils - INFO - Запрос цен акций для: ['AAPL', 'AMZN', 'GOOGL', 'MSFT', 'TSLA']
+2026-02-24 03:20:21,674 - src.utils - INFO - AAPL: $266.18
+2026-02-24 03:20:23,633 - src.utils - INFO - AMZN: $205.27
+2026-02-24 03:20:24,122 - src.utils - WARNING - Цена для GOOGL не найдена в ответе API
+2026-02-24 03:20:24,768 - src.utils - INFO - MSFT: $384.47
+2026-02-24 03:20:25,239 - src.utils - WARNING - Цена для TSLA не найдена в ответе API
+2026-02-24 03:20:25,291 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 03:20:25,328 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 03:20:25,328 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 03:20:25,345 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 03:20:25,346 - src.utils - INFO - Приложение завершило работу
+2026-02-24 03:27:59,393 - src.utils - INFO - Запуск приложения
+2026-02-24 03:28:00,028 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 03:28:00,028 - src.utils - INFO - Загружено 6705 транзакций
+2026-02-24 03:28:00,028 - src.utils - INFO - Имена колонок: ['Дата операции', 'Дата платежа', 'Номер карты', 'Статус', 'Сумма операции', 'Валюта операции', 'Сумма платежа', 'Валюта платежа', 'Кэшбэк', 'Категория', 'MCC', 'Описание', 'Бонусы (включая кэшбэк)', 'Округление на инвесткопилку', 'Сумма операции с округлением']
+2026-02-24 03:28:00,037 - src.utils - INFO - Пример данных:
+         Дата операции  ... Сумма операции с округлением
+0  31.12.2021 16:44:00  ...                       160.89
+1  31.12.2021 16:42:04  ...                        64.00
+2  31.12.2021 16:39:04  ...                       118.12
+3  31.12.2021 15:44:39  ...                        78.05
+4  31.12.2021 01:23:42  ...                       564.00
+
+[5 rows x 15 columns]
+2026-02-24 03:28:00,044 - src.utils - INFO - Генерация главной страницы для даты: 2021-12-25 12:00:00
+2026-02-24 03:28:00,053 - src.utils - INFO - Запрос курсов валют для: ['USD', 'EUR']
+2026-02-24 03:28:01,009 - src.utils - ERROR - Ошибка запроса к API валют: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=USD&symbols=USD%2CEUR
+2026-02-24 03:28:01,010 - src.utils - INFO - Запрос цен акций для: ['AAPL', 'AMZN', 'GOOGL', 'MSFT', 'TSLA']
+2026-02-24 03:28:01,547 - src.utils - INFO - AAPL: $266.18
+2026-02-24 03:28:02,278 - src.utils - WARNING - Цена для AMZN не найдена в ответе API
+2026-02-24 03:28:03,181 - src.utils - INFO - GOOGL: $311.49
+2026-02-24 03:28:03,917 - src.utils - WARNING - Цена для MSFT не найдена в ответе API
+2026-02-24 03:28:04,671 - src.utils - INFO - TSLA: $399.83
+2026-02-24 03:28:04,701 - src.services - INFO - Расчет инвесткопилки за 2021-12 с лимитом 50
+2026-02-24 03:28:04,719 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 03:28:04,719 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 03:28:04,736 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 03:28:04,739 - src.utils - INFO - Приложение завершило работу
+2026-02-24 03:36:51,632 - src.utils - INFO - Запуск приложения
+2026-02-24 03:36:52,286 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 03:36:52,296 - src.utils - INFO - Генерация главной страницы для даты: 2021-12-25 12:00:00
+2026-02-24 03:36:52,305 - src.utils - INFO - Запрос курсов валют для: ['USD', 'EUR']
+2026-02-24 03:36:53,123 - src.utils - ERROR - Ошибка запроса к API валют: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=USD&symbols=USD%2CEUR
+2026-02-24 03:36:53,124 - src.utils - INFO - Запрос цен акций для: ['AAPL', 'AMZN', 'GOOGL', 'MSFT', 'TSLA']
+2026-02-24 03:36:54,395 - src.utils - INFO - AAPL: $266.18
+2026-02-24 03:36:55,220 - src.utils - WARNING - Цена для AMZN не найдена в ответе API
+2026-02-24 03:36:56,034 - src.utils - INFO - GOOGL: $311.49
+2026-02-24 03:36:56,845 - src.utils - WARNING - Цена для MSFT не найдена в ответе API
+2026-02-24 03:36:57,673 - src.utils - INFO - TSLA: $399.83
+2026-02-24 03:36:57,701 - src.services - INFO - Расчет инвесткопилки за 2021-12 с лимитом 50
+2026-02-24 03:36:57,731 - src.services - INFO - Итого накоплено: 3473.79
+2026-02-24 03:36:57,731 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 03:36:57,749 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 03:36:57,751 - src.utils - INFO - Приложение завершило работу
+2026-02-24 04:45:43,915 - __main__ - INFO - Starting Transaction Analyzer
+2026-02-24 04:45:43,916 - src.utils - INFO - Loading transactions from data\operations.xlsx
+2026-02-24 04:45:44,567 - src.utils - INFO - Loaded 6705 transactions
+2026-02-24 04:45:44,594 - src.views - INFO - Generating home page data for date: 2024-01-15 12:00:00
+2026-02-24 04:45:44,595 - src.utils - INFO - Loaded user settings from user_settings.json
+2026-02-24 04:45:45,359 - src.utils - ERROR - Error fetching currency rates: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=RUB&symbols=USD%2CEUR
+2026-02-24 04:45:45,898 - src.utils - INFO - Retrieved price for AAPL: 266.1800
+2026-02-24 04:45:47,349 - src.utils - INFO - Retrieved price for MSFT: 384.4700
+2026-02-24 04:45:48,361 - src.views - INFO - Generating events page data for date: 2024-01-15 12:00:00, period: M
+2026-02-24 04:45:48,361 - src.utils - INFO - Loaded user settings from user_settings.json
+2026-02-24 04:45:49,069 - src.utils - ERROR - Error fetching currency rates: 400 Client Error: Bad Request for url: https://api.apilayer.com/exchangerates_data/live?base=RUB&symbols=USD%2CEUR
+2026-02-24 04:45:50,003 - src.utils - INFO - Retrieved price for AAPL: 266.1800
+2026-02-24 04:45:51,606 - src.utils - INFO - Retrieved price for MSFT: 384.4700
+2026-02-24 04:45:52,600 - src.services - INFO - Analyzing cashback categories for 2024-01
+2026-02-24 04:45:52,602 - src.services - INFO - Analyzed 0 categories
+2026-02-24 04:45:52,602 - src.services - INFO - Calculating investment bank for 2024-01 with limit 50
+2026-02-24 04:45:52,603 - src.services - INFO - Total saved: 0
+2026-02-24 04:45:52,603 - src.services - INFO - Simple search for query: СЃСѓРїРµСЂРјР°СЂРєРµС‚
+2026-02-24 04:45:52,606 - src.services - INFO - Found 2274 transactions
+2026-02-24 04:45:53,300 - src.services - INFO - Searching transactions with phone numbers
+2026-02-24 04:45:53,304 - src.services - INFO - Found 25 transactions with phone numbers
+2026-02-24 04:45:53,309 - src.services - INFO - Searching person-to-person transfers
+2026-02-24 04:45:53,310 - src.services - INFO - Found 116 person transfers
+2026-02-24 04:45:53,334 - src.reports - INFO - Calculating spending by category: РЎСѓРїРµСЂРјР°СЂРєРµС‚С‹
+2026-02-24 04:45:53,349 - src.reports - INFO - Total spent on РЎСѓРїРµСЂРјР°СЂРєРµС‚С‹: 0.0
+2026-02-24 04:45:53,350 - src.reports - INFO - Report saved to report_spending_by_category_20260224_044553.json
+2026-02-24 04:45:53,350 - src.reports - INFO - Calculating spending by weekday
+2026-02-24 04:45:53,366 - src.reports - INFO - Weekday spending calculated
+2026-02-24 04:45:53,367 - src.reports - INFO - Report saved to report_spending_by_weekday_20260224_044553.json
+2026-02-24 04:45:53,367 - src.reports - INFO - Calculating spending by workday/weekend
+2026-02-24 04:45:53,381 - src.reports - INFO - Workday/weekend spending calculated
+2026-02-24 04:45:53,381 - src.reports - INFO - Report saved to report_spending_by_workday_20260224_044553.json
+2026-02-24 04:45:53,382 - __main__ - INFO - All functions executed successfully
+2026-02-24 05:16:58,566 - src.utils - INFO - Запуск приложения
+2026-02-24 05:16:59,213 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 05:16:59,213 - src.views - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 05:16:59,215 - src.utils - WARNING - API ключ для курсов валют не настроен
+2026-02-24 05:16:59,215 - src.utils - WARNING - API ключ для акций не настроен
+2026-02-24 05:16:59,242 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 05:16:59,261 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 05:16:59,261 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 05:16:59,277 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 05:16:59,278 - src.utils - INFO - Приложение завершило работу
+2026-02-24 05:35:07,236 - src.utils - INFO - Запуск приложения
+2026-02-24 05:35:07,914 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 05:35:07,914 - src.views - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 05:35:07,916 - src.utils - WARNING - API ключ для курсов валют не настроен
+2026-02-24 05:35:07,916 - src.utils - WARNING - API ключ для акций не настроен
+2026-02-24 05:35:07,941 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 05:35:07,960 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 05:35:07,960 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 05:35:07,975 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 05:35:07,976 - src.utils - INFO - Приложение завершило работу
+2026-02-24 05:39:15,783 - src.utils - INFO - Запуск приложения
+2026-02-24 05:39:16,440 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 05:39:16,440 - src.views - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 05:39:16,442 - src.utils - WARNING - API ключ для курсов валют не настроен
+2026-02-24 05:39:16,442 - src.utils - WARNING - API ключ для акций не настроен
+2026-02-24 05:39:16,468 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 05:39:16,487 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 05:39:16,487 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 05:39:16,501 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 05:39:16,502 - src.utils - INFO - Приложение завершило работу
+2026-02-24 05:43:41,877 - src.utils - INFO - Запуск приложения
+2026-02-24 05:43:42,521 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 05:43:42,521 - src.views - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 05:43:42,523 - src.utils - WARNING - API ключ для курсов валют не настроен
+2026-02-24 05:43:42,523 - src.utils - WARNING - API ключ для акций не настроен
+2026-02-24 05:43:42,548 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 05:43:42,567 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 05:43:42,567 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 05:43:42,583 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 05:43:42,584 - src.utils - INFO - Приложение завершило работу
+2026-02-24 05:51:11,383 - src.utils - INFO - Запуск приложения
+2026-02-24 05:51:12,040 - src.utils - INFO - Загружено 6705 транзакций из data\operations.xlsx
+2026-02-24 05:51:12,041 - src.views - INFO - Генерация главной страницы для даты: 2023-10-15 12:00:00
+2026-02-24 05:51:12,042 - src.utils - WARNING - API ключ для курсов валют не настроен
+2026-02-24 05:51:12,042 - src.utils - WARNING - API ключ для акций не настроен
+2026-02-24 05:51:12,068 - src.services - INFO - Расчет инвесткопилки за 2023-10 с лимитом 50
+2026-02-24 05:51:12,088 - src.services - INFO - Итого накоплено: 0.0
+2026-02-24 05:51:12,088 - src.reports - INFO - Формирование отчета по категории: Супермаркеты
+2026-02-24 05:51:12,103 - src.reports - INFO - Отчет сохранен в default_report.json
+2026-02-24 05:51:12,104 - src.utils - INFO - Приложение завершило работу
