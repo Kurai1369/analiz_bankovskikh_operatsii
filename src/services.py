@@ -31,7 +31,7 @@ def investment_bank(month: str, transactions: List[Dict[str, Any]], limit: int) 
     for transaction in transactions:
         # Парсинг даты из строки 'YYYY-MM-DD'
         try:
-            t_date = datetime.strptime(transaction.get("Дата операции", ""), "%Y-%m-%d")
+            t_date = datetime.strptime(transaction.get("Дата операции", ""), "%d.%m.%Y %H:%M:%S")
         except (ValueError, TypeError):
             continue
 
@@ -60,7 +60,7 @@ def profitable_cashback_categories(year: int, month: int, transactions: List[Dic
 
     for t in transactions:
         try:
-            t_date = datetime.strptime(t.get("Дата операции", ""), "%Y-%m-%d")
+            t_date = datetime.strptime(t.get("Дата операции", ""), "%d.%m.%Y %H:%M:%S")
             if t_date.year == year and t_date.month == month:
                 cat = t.get("Категория", "Прочее")
                 amount = abs(t.get("Сумма операции", 0))

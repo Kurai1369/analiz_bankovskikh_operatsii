@@ -40,11 +40,14 @@ def test_load_user_settings_invalid_json(tmp_path) -> None:
     assert "user_currencies" in result
 
 
-@pytest.mark.parametrize("date_str,expected", [
-    ("2023-10-15 12:30:45", "2023-10-15 12:30:45"),
-    ("invalid", None),
-    ("", None),
-])
+@pytest.mark.parametrize(
+    "date_str,expected",
+    [
+        ("2023-10-15 12:30:45", "2023-10-15 12:30:45"),
+        ("invalid", None),
+        ("", None),
+    ],
+)
 def test_parse_date_string_parametrized(date_str: str, expected: str | None) -> None:
     """Параметризированный тест парсинга дат."""
     result = parse_date_string(date_str)
@@ -81,6 +84,7 @@ def test_get_stock_prices_no_api_key(mocker) -> None:
 
 def test_get_stock_prices_api_error(mocker) -> None:
     """Тест обработки ошибки запроса к API акций."""
+
     def mock_get(*args, **kwargs):
         raise requests.exceptions.RequestException("API Error")
 
@@ -93,6 +97,7 @@ def test_get_stock_prices_api_error(mocker) -> None:
 
 def test_get_stock_prices_invalid_response(mocker) -> None:
     """Тест обработки невалидного ответа API акций."""
+
     def mock_get(*args, **kwargs):
         mock_response = mocker.Mock()
         mock_response.json.return_value = {"Global Quote": {}}
@@ -108,10 +113,7 @@ def test_get_stock_prices_invalid_response(mocker) -> None:
 def test_get_currency_rates_success(mocker) -> None:
     """Тест успешного получения курсов валют."""
     mock_response = mocker.Mock()
-    mock_response.json.return_value = {
-        "success": True,
-        "quotes": {"RUBUSD": 0.011, "RUBEUR": 0.010}
-    }
+    mock_response.json.return_value = {"success": True, "quotes": {"RUBUSD": 0.011, "RUBEUR": 0.010}}
     mock_response.raise_for_status = mocker.Mock()
     mocker.patch("requests.get", return_value=mock_response)
 

@@ -62,13 +62,16 @@ def test_simple_search_not_found() -> None:
     assert json.loads(result_str) == []
 
 
-@pytest.mark.parametrize("description,should_match", [
-    ("+7 921 111-22-33", True),
-    ("+79955555555", True),
-    ("+7 995 555-55-55", True),
-    ("Нет телефона", False),
-    ("+1 234 567-89-00", False),
-])
+@pytest.mark.parametrize(
+    "description,should_match",
+    [
+        ("+7 921 111-22-33", True),
+        ("+79955555555", True),
+        ("+7 995 555-55-55", True),
+        ("Нет телефона", False),
+        ("+1 234 567-89-00", False),
+    ],
+)
 def test_search_phone_numbers_parametrized(description: str, should_match: bool) -> None:
     """Параметризированный тест поиска телефонов."""
     transactions = [{"Описание": description}]
