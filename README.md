@@ -43,3 +43,5 @@ shop_project/
 
 ## Тесты
 `poetry run pytest`
+
+©Kurai
